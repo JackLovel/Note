@@ -13,5 +13,8 @@ Because some other software depend on it;
 
 # for python3
 > sudo apt install python3-pip
+
+# check it 
+> pip3 -v 
 ```
 
