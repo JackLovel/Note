@@ -5,7 +5,7 @@ Because some other software depend on it;
 ```
 
 
-### pip configure
+### pip install
 
 ```bash
 # for python2
