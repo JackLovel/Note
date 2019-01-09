@@ -18,3 +18,17 @@ Because some other software depend on it;
 > pip3 -v 
 ```
 
+### pypi configure
+```bash
+$ mkdir ~/.pip
+$ cd ~/.pip
+$ touch pip.conf
+```
+then add following content
+```
+[global]
+index-url = http://pypi.douban.com/simple
+[install]
+trusted-host=pypi.douban.com
+```
+
