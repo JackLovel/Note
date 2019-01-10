@@ -30,11 +30,14 @@ C-c C-t // TODO
 #+END_SRC
 
 *** GTD
+#+BEGIN_SRC
 C-c C-s // 开始时间
 C-c C-d　// 结束时间
 C-c a   // 打开历程
 a       // 一天的
 r       // reflash
+#+END_SRC
+
 ** disable backup file 
 #+BEGIN_SRC emacs-lisp
   (setq make-backup-files nuil)
