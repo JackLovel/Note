@@ -1,7 +1,7 @@
 > 下载，并解压
 ```
 # download jdk(such version: jdk1.8)
-download from official's website, don't use wget download jdk  
+download from official's website, but don't use wget download jdk  
 
 # expend .tar.gz file 
 tar -zxvf jdk-1.8.tar.gz
