@@ -9,7 +9,7 @@ tar -zxvf jdk-1.8.tar.gz
 
 > 添加配置
 ```
-export JAVA_HOME= 此处真写jdk的绝对路径
+export JAVA_HOME= 此处填写jdk的绝对路径
 export JRE_HOME=${JAVA_HOME}/jre
 export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
 export PATH=${JAVA_HOME}/bin:$PATH
