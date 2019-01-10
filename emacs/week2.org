@@ -1,0 +1,51 @@
+;; This buffer is for text that is not saved, and for Lisp evaluation.
+;; To create a file, visit it with C-x C-f and enter text in its buffer.
+
+* week2
+
+** key 
+
+C-x C-e // run current elisp code
+c-x 2 // 下分屏  
+c-x 3 // 右分屏
+c-x ' // 进入编辑模式
+C-c ' // 退出
+M-x eval-buffer // update current status 
+C-x u // undo 
+C-x 0 // close current windows 
+MELPA // emacs package source 
+
+C-y // paste
+M-x theme // 加载主题
+#+BEGIN_SRC
+生成这个格式： <s + Tab
+#+END_SRC
+
+M-n // select next
+M-p // select pre
+M-x package-list-packages // open package manage 
+M-x autoremove // remove no need packages
+
+C-x B // recent file
+M-enter // 1, 2, 3,5 => 1,2,3,4,
+
+C-c C-t // TODO
+** GTD
+C-c C-s // 开始时间
+C-c C-d　// 结束时间
+C-c a   // 打开历程
+a       // 一天的
+r       // reflash
+** disable backup file 
+#+BEGIN_SRC emacs-lisp
+  (setq make-backup-files nuil)
+#+END_SRC
+
+** package-list-packages
+cursor put version
+I:install 
+U:undo
+
+cursor　put status 
+D:delete x: exec
+U:uninstall
