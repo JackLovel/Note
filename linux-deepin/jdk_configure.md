@@ -24,4 +24,8 @@ $ javac
 ```
 > 参考
 
-[ubuntu jdk](https://blog.csdn.net/qq_29695701/article/details/77454395)
+- [ubuntu jdk][1]
+- [downloading-java-jdk-on-linux-via-wget-is-shown-license-page-instead][2]
+
+[1]:https://blog.csdn.net/qq_29695701/article/details/77454395
+[2]:https://stackoverflow.com/questions/10268583/downloading-java-jdk-on-linux-via-wget-is-shown-license-page-instead
