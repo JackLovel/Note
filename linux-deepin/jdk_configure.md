@@ -1,3 +1,4 @@
+> 下载，并解压
 ```
 # download jdk(such version: jdk1.8)
 wget -O jdk-1.8.tar.gz  \
@@ -22,4 +23,6 @@ $ source ~/.bashrc
 $ java -version 
 $ javac 
 ```
+> 参考
+
 [ubuntu jdk](https://blog.csdn.net/qq_29695701/article/details/77454395)
