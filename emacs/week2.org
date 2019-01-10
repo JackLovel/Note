@@ -1,9 +1,6 @@
-;; This buffer is for text that is not saved, and for Lisp evaluation.
-;; To create a file, visit it with C-x C-f and enter text in its buffer.
-
 * week2
 
-** key 
+*** key 
 
 C-x C-e // run current elisp code
 c-x 2 // 下分屏  
@@ -30,7 +27,7 @@ C-x B // recent file
 M-enter // 1, 2, 3,5 => 1,2,3,4,
 
 C-c C-t // TODO
-** GTD
+*** GTD
 C-c C-s // 开始时间
 C-c C-d　// 结束时间
 C-c a   // 打开历程
@@ -41,7 +38,8 @@ r       // reflash
   (setq make-backup-files nuil)
 #+END_SRC
 
-** package-list-packages
+*** M-x package-list-packages
+#+BEGIN_SRC
 cursor put version
 I:install 
 U:undo
@@ -49,3 +47,5 @@ U:undo
 cursor　put status 
 D:delete x: exec
 U:uninstall
+#+END_SRC
+
