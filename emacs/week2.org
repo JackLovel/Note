@@ -1,7 +1,7 @@
 * week2
 
 *** key 
-
+#+BEGIN_SRC
 C-x C-e // run current elisp code
 c-x 2 // 下分屏  
 c-x 3 // 右分屏
@@ -27,6 +27,8 @@ C-x B // recent file
 M-enter // 1, 2, 3,5 => 1,2,3,4,
 
 C-c C-t // TODO
+#+END_SRC
+
 *** GTD
 C-c C-s // 开始时间
 C-c C-d　// 结束时间
