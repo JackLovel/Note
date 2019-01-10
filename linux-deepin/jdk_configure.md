@@ -1,8 +1,7 @@
 > 下载，并解压
 ```
 # download jdk(such version: jdk1.8)
-wget -O jdk-1.8.tar.gz  \
-https://download.oracle.com/otn-pub/java/jdk/8u191-b12/2787e4a523244c269598db4e85c51e0c/jdk-8u191-linux-x64.tar.gz
+download from official's website, don't use wget download jdk  
 
 # expend .tar.gz file 
 tar -zxvf jdk-1.8.tar.gz
