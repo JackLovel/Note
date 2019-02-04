@@ -10,9 +10,9 @@
 
 >存储器层次图
 
-<img src="/ch1/img/存储器层次图.png" width="70%" height="70%"/>
+<img src="ch1/img/存储器层次图.png" width="70%" height="70%"/>
 
 >操作系统提供的抽象表示
 
-<img src="/ch1/img/操作系统提供的抽象表示.png" width="70%" height="70%"/>
+<img src="ch1/img/操作系统提供的抽象表示.png" width="70%" height="70%"/>
 
