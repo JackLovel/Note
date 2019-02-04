@@ -5,12 +5,14 @@
 
 
 >编译系统
+
 <img src="ch1/img/编译系统.png" width="70%" height="70%"/>
 
 >存储器层次图
 
-![](ch1/img/存储器层次图.png)
+<img src="/ch1/img/存储器层次图.png" width="70%" height="70%"/>
 
 >操作系统提供的抽象表示
 
-![](./ch1/img/操作系统提供的抽象表示.png)
+<img src="/ch1/img/操作系统提供的抽象表示.png" width="70%" height="70%"/>
+
