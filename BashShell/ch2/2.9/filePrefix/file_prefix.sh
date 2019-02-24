@@ -14,3 +14,9 @@ echo ${VAR%%.*}
 
 echo ${VAR#*.}
 echo ${VAR##*.}
+
+URL="www.google.com"
+echo ${URL%.*}
+echo ${URL%%.*}
+echo ${URL#*.}
+echo ${URL##*.}
