@@ -7,11 +7,9 @@ read -p 'enter email: ' email
 
 git config --global user.name $name
 git config --global user.email $email
-
 echo
 
-#ssh-keygen -t rsa
-
+ssh-keygen -t rsa
 #gedit ~/.ssh/id_rsa.pub
 
 #echo Hello word
