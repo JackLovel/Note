@@ -1,0 +1,38 @@
+* 2-26
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-26 Tue 11:56
+  :ARCHIVE_FILE: ~/Desktop/vimtutor_note.org
+  :ARCHIVE_CATEGORY: vimtutor_note
+  :END:
+- dw: delete a word
+- d$: delete end of the line
+- de:
+
+- 2w
+- 2e
+- 0: start of the 
+- d2w
+- u/U: undo
+- p/P: Paster
+- c/ce/c$
+- ctrl + g
+- gg / G
+- / : search 
+  <enter>
+  N / n
+  set ic # ignore case
+- %s/old/new/g
+- :!external_command
+- :w file_name
+- v: view
+- :r file_name
+- o / O : below / above
+- e: word end 
+- R: replace
+- y: copy 
+- :help command_name
+
+
+
+
+
