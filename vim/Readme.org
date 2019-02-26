@@ -1,0 +1,12 @@
+*** quick learn vim 
+
+#+BEGIN_SRC 
+$ vimtuddtor en  # read Vim Tutor 
+#+END_SRC
+
+*** study way
+
+#+BEGIN_SRC 
+1. Spend 30 ddminutes a day to exercise
+#+END_SRC
+
