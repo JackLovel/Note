@@ -2,7 +2,7 @@
 #文件名： remove_duplicates.sh
 # 作途：查找并删除重复文件,第一个文件只保留一份
 
-ls -1S --time-style=long-iso | awk 'BEGIN' {
+ls -1S --time-style=long-iso | awk 'BEGIN {
         getline; getline;
         name1=$8; size=$5
     }
@@ -25,5 +25,5 @@ ls -1S --time-style=long-iso | awk 'BEGIN' {
 cat duplicate_files | xargs -I {} md5sum {} | sort | uniq -w 32 | awk '{ print "^"$2"$" }' | sort -u > duplicate_sample
 
 echo Removing...
-echo duplicate_file duplicate_sample -2 -3 | tee /dev/stderr | xargs rm
+echo duplicate_files duplicate_sample -2 -3 | tee /dev/stderr | xargs rm
 echo Removed duplicates file successfully.
