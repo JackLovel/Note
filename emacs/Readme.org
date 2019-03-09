@@ -1,1 +1,7 @@
-** emacs 
+* emacs 
+
+*** org mode 用法
+
+#+BEGIN_SRC 
+DONE\TODO      // C-c C-t 标记
+#+END_SRC
