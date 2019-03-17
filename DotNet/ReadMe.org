@@ -1,1 +1,9 @@
+*** use way
+
+#+BEGIN_SRC 
+dotnet new console    // create a console 
+dotnet new mvc        // create a web 
+code -r .             // vscode imprort current project 
+#+END_SRC
+
 
