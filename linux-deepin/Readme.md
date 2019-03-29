@@ -8,7 +8,7 @@ $ sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get install dde
 > 管理服务
 ```
 // 比如 nginx 服务
-$ systemctl {status|stop|restart|start} nginx
+$ systemctl {status|stop|restart|start|enable} nginx
 ```
 > 更新软件列表/升级全部包
 ```
