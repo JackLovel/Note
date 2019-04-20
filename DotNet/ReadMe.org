@@ -1,9 +1,4 @@
-*** use way
-
-#+BEGIN_SRC 
-dotnet new console    // create a console 
-dotnet new mvc        // create a web 
-code -r .             // vscode imprort current project 
-#+END_SRC
+*** preference
+- [[https://docs.microsoft.com/zh-cn/aspnet/core/getting-started/?view=aspnetcore-2.2&tabs=linux][ASP.NET Core office document]]
 
 
