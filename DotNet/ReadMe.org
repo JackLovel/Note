@@ -1,4 +1,6 @@
 *** preference
 - [[https://docs.microsoft.com/zh-cn/aspnet/core/getting-started/?view=aspnetcore-2.2&tabs=linux][ASP.NET Core office document]]
 
+*** tool
+- [[https://code.visualstudio.com/][vscode]]
 
