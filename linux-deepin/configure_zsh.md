@@ -2,6 +2,7 @@
 ```
 $ sudo apt-get install -y zsh
 $ vim ~/.zshrc
+$ sudo zsh
 ```
 > add [skywind3000](https://github.com/skywind3000/vim/blob/master/etc/zshrc.zsh) for zsh configure
 
