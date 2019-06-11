@@ -1,6 +1,6 @@
 ## 前提
 ```
-window 中有 xshell, 那么linux 有 
+window 中有 xshell, 那么linux 有 ssh server
 ```
 ## 配置
 ```
