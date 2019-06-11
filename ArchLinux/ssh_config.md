@@ -6,7 +6,13 @@ window 中有 xshell, 那么linux 有 ssh server
 ```
 $ ssh -v // 检测是否安装
 $ pacman -S openssh // 如果没有安装，就安装
-
-
+// 配置文件 /etc/ssh/sshd_config
+$ sudo vim /etc/ssh/sshd_config
 $ systemctl start sshd.service      // 启动 ssh 服务
+```
+
+## 使用方法
+```
+// 以 root 用户和主机 192.168.1.100 为例
+$ ssh root@192.168.1.100
 ```
