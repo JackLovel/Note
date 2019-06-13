@@ -1,6 +1,6 @@
 ### 原代码编译安装 
 ```
-$ ./configure 
-$ make 
-$ make install 
+$ sudo ./configure 
+$ sudo make 
+$ sudo make install 
 ``` 
