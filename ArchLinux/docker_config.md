@@ -1,3 +1,8 @@
+### 拉取镜像
+```
+$ docker pull image_name  
+```
+
 ### 查看正在运行的容器
 ```
 $ docker ps 
