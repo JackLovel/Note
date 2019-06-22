@@ -30,3 +30,16 @@ $ docker rmi  image_id  // image_id 为镜像id
 $ docker rm XXX // XXX： 为错误提示的 id
 $ docker rmi image_id // 每二步执行，如果还出现上面的错误，就反复执行上面的操作
 ```
+
+### docker hub 加速配置
+- 以`华为`提供的加速服务为例
+```
+sudo mkdir -p /etc/docker
+sudo tee /etc/docker/daemon.json <<- 'EOF'
+{
+    "registry-mirrors": ["https://w10hqdi0.mirror.swr.myhuaweicloud.com"]
+}
+EOF
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+```
