@@ -12,3 +12,9 @@ $ neofetch
 ```
 $ sudo passwd root
 ```
+
+> use `screenfetch` 
+```
+$ sudo apt-get install -y screenfetch
+$ screenfetch
+```
