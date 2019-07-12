@@ -13,8 +13,9 @@ $ systemctl {status|stop|restart|start|enable} nginx
 > 更新软件列表/升级全部包
 ```
 // debian
-$ sudo apt-get update && sudo apt-get upgrade 
-
+$ sudo apt-get update     //　更新软件列表 
+$ sudo apt-get upgrade 　 //  升级软件
+ 
 // centos
 $ yum clean all // 清理缓存
 $ yum makecache
