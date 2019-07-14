@@ -1,9 +1,0 @@
-* emacs 
-
-*** org mode 用法
-
-#+BEGIN_SRC 
-1. DONE\TODO      // C-c C-t 标记
-2. [[链接][名字]]  // 图片或者链接
-3. C-c C-e        // 导出为其他文件(比如html)
-#+END_SRC
