@@ -19,7 +19,7 @@ $ sudo make && sudo make install
 ```
 
 ### 补充
-- linux, configure --prefix=/有什么用
+> linux, configure --prefix=/有什么用
 ```
 指定安装路径
 
