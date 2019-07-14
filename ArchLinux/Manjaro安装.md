@@ -1,11 +1,11 @@
 ### 更换国内源
 ```
 $ sudo pacman-mirrors -i -c China -m rank  #选一个清华源就行
-$ sudo pacman -Syyu
+$ sudo pacman -Syyu  // 刷新软件列表，并升级软件
 $ sudo pacman -S vim
 ```
 
-### 
+### 添加arch源
 ```
 $ sudo vim /etc/pacman.conf
 ```
@@ -41,4 +41,18 @@ sudo pacman -S fcitx-configtool # 图形化配置工具
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
+```
+### 安装一些常用软件
+除了命令行安装之外，还可以在
+```
+sudo pacman -Sy yaourt
+sudo pacman -S archlinuxcn-keyring
+sudo pacman -S qtcreator # 牛逼的IDE
+sudo pacman -S visual-studio-code-bin # vscode
+sudo pacman -S make # 牛逼的工具
+sudo pacman -S screenfetch 
+sudo pacman -S deepin.com.qq.office # qq
+sudo pacman -S clang # 牛逼的编译器
+sudo pacman -S gdb # 默认没有
+sudo pacman -S wps-office
 ```
