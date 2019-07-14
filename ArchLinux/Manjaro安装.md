@@ -1,3 +1,8 @@
+### 安装
+```
+在Linux下可以使用 dd　来制作启动助手;
+window下推荐使用　rufus　来制作。
+```
 ### 更换国内源
 ```
 $ sudo pacman-mirrors -i -c China -m rank  #选一个清华源就行
@@ -44,7 +49,7 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
 ```
 ### 安装一些常用软件
-除了命令行安装之外，还可以在
+除了命令行安装之外，还可以在 `Octopi`　图形界面进行软件的安装
 ```
 sudo pacman -Sy yaourt
 sudo pacman -S archlinuxcn-keyring
