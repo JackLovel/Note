@@ -37,6 +37,7 @@ sudo pacman -S fcitx-configtool # 图形化配置工具
 ```
 
 ### 设置中文输入法环境变量，编辑~/.xprofile文件，增加下面几行(如果文件不存在，则新建)
+配置好后，重启才能生效
 ```
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
