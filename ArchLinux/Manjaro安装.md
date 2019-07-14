@@ -15,3 +15,7 @@ $ sudo vim /etc/pacman.conf
 SigLevel = Optional TrustedOnly
 Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 ```
+###
+```
+sudo pacman -Syy && sudo pacman -S archlinuxcn-keyring
+```
