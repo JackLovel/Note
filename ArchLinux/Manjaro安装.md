@@ -24,5 +24,5 @@ $ sudo pacman -Syy && sudo pacman -S archlinuxcn-keyring
 $ sudo pacman -S git
 $ sudo pacman -S zsh
 $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-$ chsh -s /bin/zsha
+$ chsh -s /bin/zsh
 ```
