@@ -56,3 +56,5 @@ sudo pacman -S clang # 牛逼的编译器
 sudo pacman -S gdb # 默认没有
 sudo pacman -S wps-office
 ```
+### 参考文档
+- [原文](https://zhuanlan.zhihu.com/p/50918522)
