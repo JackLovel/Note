@@ -1,4 +1,4 @@
-### basic 
+### basic flow
 ```
 1. press spc+ g g g // or press M+x magit-status 
 2. press s // stage
