@@ -29,3 +29,4 @@ bundle config mirror.https://rubygems.org https://gems.ruby-china.com/
 
 ## 参考
 - [RubyGem 清华镜像](https://gems.ruby-china.com/)
+- [如何快速正确的安装 Ruby, Rails 运行环境](https://ruby-china.org/wiki/install_ruby_guide)
