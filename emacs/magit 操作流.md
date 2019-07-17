@@ -9,5 +9,5 @@
 
 ### other key 
 ```
-1. F // pull 
+1. press F // pull 
 ```
