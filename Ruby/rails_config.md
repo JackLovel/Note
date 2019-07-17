@@ -28,7 +28,11 @@ bundle config mirror.https://rubygems.org https://gems.ruby-china.com/
 ```
 ## 问题
 - [执行 rails server 报错 Could not find a JavaScript runtime](https://ruby-china.org/topics/1605)
-
+- 执行 rails new demo 时会出现下面的情况, 属于正常现象; 
+```
+// 注意此时进程并没有停止，等待它下载文件解决一些依赖问题，等一会儿它会自动下载一些文件，
+The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`. 
+```
 ## 参考
 - [RubyGem 清华镜像](https://gems.ruby-china.com/)
 - [如何快速正确的安装 Ruby, Rails 运行环境](https://ruby-china.org/wiki/install_ruby_guide)
