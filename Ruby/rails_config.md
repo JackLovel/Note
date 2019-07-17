@@ -26,6 +26,8 @@ bundle config mirror.https://rubygems.org https://gems.ruby-china.com/
 # cd demo
 # rails server  // 启动服务
 ```
+## 问题
+- [执行 rails server 报错 Could not find a JavaScript runtime](https://ruby-china.org/topics/1605)
 
 ## 参考
 - [RubyGem 清华镜像](https://gems.ruby-china.com/)
