@@ -11,3 +11,6 @@
 ```
 1. press F // pull 
 ```
+
+### prefer
+[Emacs: git, magit-mode](http://ergoemacs.org/emacs/emacs_magit-mode_tutorial.html)
