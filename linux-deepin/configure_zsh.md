@@ -33,3 +33,8 @@ if exists percol; then
     bindkey '^R' percol_select_history
 fi
 ```
+
+### apply
+```
+$ source ~/.zshrc
+```
