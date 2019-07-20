@@ -1,14 +1,14 @@
 ### configure and install 
 ```
 $ sudo apt-get install -y zsh
-$ vim ~/.zshrc
-$ sudo zsh
+$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-> add [skywind3000](https://github.com/skywind3000/vim/blob/master/etc/zshrc.zsh) for zsh configure
 
 ### make zsh as default shell
 ```
-$ chsh -s $(which zsh)
+$ chsh -s $(which zsh) 
+或者
+$ chsh -s /bin/zsh 
 ```
 
 ### [percol](https://github.com/mooz/percol)
