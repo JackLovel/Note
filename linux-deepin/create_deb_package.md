@@ -26,5 +26,12 @@ $ sudo dpkg -i mypkg.deb // install deb package
 // or
 $ sudo apt install -y ./mypkg.deb
 ```
+
+### Uninstall package 
+```
+$ sudo apt remove package_name
+// or
+$ sudo apt purge package_name
+```
 ### Reference
 [Debian Package Tutorial (dpkg/.deb)](https://www.devdungeon.com/content/debian-package-tutorial-dpkgdeb)
