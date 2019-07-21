@@ -33,5 +33,13 @@ $ sudo apt remove package_name
 // or
 $ sudo apt purge package_name
 ```
+
+### Use generate tool
+```
+$ sudo apt install dh-make debhelper
+$ mkdir mydeb-1.0.0 && cd mydeb-1.0.0/
+$ dh_make --createorig
+```
+
 ### Reference
 [Debian Package Tutorial (dpkg/.deb)](https://www.devdungeon.com/content/debian-package-tutorial-dpkgdeb)
