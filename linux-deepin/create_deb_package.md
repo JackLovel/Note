@@ -17,6 +17,7 @@ Description: My test package, please ignore
 Homepage: https://github.com/username/projectname
 Architecture: all
 Depends: git, python3 (>=3.5)
+```
 
 ### Reference
 [Debian Package Tutorial (dpkg/.deb)](https://www.devdungeon.com/content/debian-package-tutorial-dpkgdeb)
