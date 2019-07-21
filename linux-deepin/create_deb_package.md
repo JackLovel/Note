@@ -18,6 +18,9 @@ Homepage: https://github.com/username/projectname
 Architecture: all
 Depends: git, python3 (>=3.5)
 ```
-
+### Build package 
+```
+$ dpkg -b ./mypkg ./mypkg_1.0.0-0_amd64.deb
+```
 ### Reference
 [Debian Package Tutorial (dpkg/.deb)](https://www.devdungeon.com/content/debian-package-tutorial-dpkgdeb)
