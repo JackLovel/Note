@@ -8,3 +8,15 @@
 - open [[https://www.nuget.org/][NuGet]] web page 
 - search you want package name 
 
+*** fix Unable to start Kestrel
+#+BEGIN_SRC 
+// put below the code for Program.cs
+public static void Main(string[] args)
+{
+  CreateWebHostBuilder(args)
+    .UseKestrel()
+    .UseUrls("http://127.0.0.1:8001")
+    .Build().Run();
+}
+#+END_SRC 
+
