@@ -45,3 +45,6 @@
 
 ** 导出
 按下 =C-c C-e=
+
+** 参考
+[[https://www.cnblogs.com/holbrook/archive/2012/04/12/2444992.html#sec-2-1][org-mode: 最好的文档编辑利器，没有之一]]
