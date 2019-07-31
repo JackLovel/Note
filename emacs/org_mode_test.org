@@ -5,6 +5,7 @@
 *** 超链接
 [[https://www.baidu.com][百度一下]]
 
+*** 文本
 #+BEGIN_SRC 
 这里可以写一些文本
 #+END_SRC
