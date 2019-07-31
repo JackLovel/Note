@@ -36,3 +36,6 @@
 - 无序列表
 1.有序列表
 - 描述列表 :: He plays Sam, Frodo's friend.
+
+** 分隔线
+-----
