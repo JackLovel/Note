@@ -5,8 +5,8 @@
 *** 超链接
 [[https://www.baidu.com][百度一下]]
 
-***　图片
-[[./img/org_mode_test_image.jpg]]
+***　图片           
+[[./img/org_mode_test_image.png]]
 
 
 *** 文本
