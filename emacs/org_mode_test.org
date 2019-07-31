@@ -5,6 +5,10 @@
 *** 超链接
 [[https://www.baidu.com][百度一下]]
 
+***　图片
+[[./img/org_mode_test_image.jpg]]
+
+
 *** 文本
 #+BEGIN_SRC 
 这里可以写一些文本
