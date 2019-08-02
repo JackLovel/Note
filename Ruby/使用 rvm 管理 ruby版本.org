@@ -1,4 +1,5 @@
-** Install rvm 
+** Step
+*** Install rvm 
 #+BEGIN_SRC bash
 $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 $ curl -sSL https://get.rvm.io | bash -s stable
@@ -9,19 +10,19 @@ $ echo "ruby_url=https://cache.ruby-china.com/pub/ruby" > ~/.rvm/user/db // edit
 $ rvm -v 
 #+END_SRC
 
-** Use rvm install ruby
+*** Use rvm install ruby
 #+BEGIN_SRC bash
 $ rvm requirements
 $ rvm install 2.6.3
 $ /bin/bash --login
 #+END_SRC
 
-** Set ruby version 
+*** Set ruby version 
 #+BEGIN_SRC bash
 $ rvm use 2.6.3 --default 
 #+END_SRC
 
-** Checkout 
+*** Checkout 
 #+BEGIN_SRC bash
 $ ruby -v
 ruby 2.3.0 ...
@@ -32,12 +33,12 @@ $ gem -v
 $ gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/ 
 #+END_SRC
 
-** Install bundler
+*** Install bundler
 #+BEGIN_SRC bash
 $ gem install bundler
 #+END_SRC
 
-** Install rails 
+*** Install rails 
 #+BEGIN_SRC bash
 $ gem install rails 
 $ rails -v 
