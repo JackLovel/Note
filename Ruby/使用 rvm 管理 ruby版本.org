@@ -32,13 +32,16 @@ $ gem -v
 $ gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/ 
 #+END_SRC
 
-*** Install bundler
+** Install bundler
 #+BEGIN_SRC bash
 $ gem install bundler
 #+END_SRC
 
-*** Install rails 
+** Install rails 
 #+BEGIN_SRC bash
 $ gem install rails 
 $ rails -v 
 #+END_SRC
+
+** Reference 
+- [[https://ruby-china.org/wiki/install_ruby_guide][如何快速正确的安装 Ruby, Rails 运行环境]]
