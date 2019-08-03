@@ -14,7 +14,8 @@ $ rvm -v
 #+BEGIN_SRC bash
 $ rvm requirements
 $ rvm install 2.6.3
-$ /bin/bash --login
+$ echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >>~/.bashrc
+$ source ~/.bashrc
 #+END_SRC
 
 *** Set ruby version 
