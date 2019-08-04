@@ -16,3 +16,6 @@ $ cmake .. #用 cmake 构建项目
 $ make -j4 #开 4 个线程去编译项目
 $ ./demo #执行可执行文件
 #+END_SRC
+
+*** 参考
+- [[https://github.com/loliMay/deepin-develop-guide#%E7%9B%AE%E5%BD%95][deepin 开发指南]]
