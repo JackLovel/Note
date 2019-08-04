@@ -1,0 +1,17 @@
+*** 依赖安装
+#+BEGIN_SRC 
+$ sudo apt-get install libdtkwidget-dev libdtkcore-dev dh-make
+$ sudo apt-get install libdframeworkdbus-dev libqrencode-dev \
+  libzbar-dev libdtkwm-dev libdtkcore-bin  libqtshadowsocks-dev fakeroo
+
+$ apt install -y cmake 
+#+END_SRC
+
+
+*** Build 目录
+#+BEGIN_SRC 
+$ mkdir build && cd build #单独创建一个 build 文件夹并 cd 进去
+$ cmake .. #用 cmake 构建项目
+$ make -j4 #开 4 个线程去编译项目
+$ ./demo #执行可执行文件
+#+END_SRC
