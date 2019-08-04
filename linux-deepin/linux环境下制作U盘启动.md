@@ -3,6 +3,7 @@
 // U盘分区： /dev/sdc
 ```
 $ sudo fdisk -l 
-$ umount /dev/sdc
-$ sudo dd bs=4M if=/home/hcf/dev/iso/ubuntu-16.04-desktop-amd64.iso of=/dev/sdc
+$ umount /dev/sdc1
+$ sudo mkfs.vfat /dev/sdc -I
+$ sudo dd bs=4M if=/home/gog/下载/manjaro-kde-18.0.4-stable-x86_64.iso of=/dev/sdc status=progress
 ```
