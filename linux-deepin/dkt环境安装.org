@@ -7,8 +7,9 @@ $ sudo apt-get install libdframeworkdbus-dev libqrencode-dev \
 $ apt install -y cmake 
 #+END_SRC
 
-
-*** Build 目录
+*** 测试
+- [[https://deepin.lolimay.cn/intro/cmake/cmake-practice.html][deepin 开发指南－CMake 实战]]
+*** 编译
 #+BEGIN_SRC 
 $ mkdir build && cd build #单独创建一个 build 文件夹并 cd 进去
 $ cmake .. #用 cmake 构建项目
