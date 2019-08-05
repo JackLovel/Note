@@ -23,4 +23,7 @@ export MANPATH=/usr/local/texlive/2019/texmf-dist/doc/man:$MANPATH
 export INFOPATH=/usr/local/texlive/2019/texmf-dist/doc/info:$INFOPATH
 #+END_SRC
 
-*** 
+*** 测试
+#+BEGIN_SRC bash
+$ tex -v 
+#+END_SRC
