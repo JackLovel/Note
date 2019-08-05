@@ -1,6 +1,26 @@
+*** 下载
+[[https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/][texlive 2019 下载地址]]
+
+*** 安装
+#+BEGIN_SRC bash
+// 解压 iso 文件，并切换进该目录
+$ chmod +x install-tl
+$ ./install-tl
+#+END_SRC
+
+*** 配置坏境
+#+BEGIN_SRC bash
+$ emacs ~/.bash_profile 
+#+END_SRC
+
+#+begin_quote
+添加下面的内容到文件里：
+#+end_quote
 
 #+BEGIN_SRC bash
 export PATH=/usr/local/texlive/2019/bin/x86_64-linux:$PATH
 export MANPATH=/usr/local/texlive/2019/texmf-dist/doc/man:$MANPATH
 export INFOPATH=/usr/local/texlive/2019/texmf-dist/doc/info:$INFOPATH
 #+END_SRC
+
+*** 
