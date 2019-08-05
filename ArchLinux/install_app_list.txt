@@ -1,1 +1,16 @@
-
+git
+zsh
+fcitx-sogoupinyin
+fcitx-im
+fcitx-configtool
+archlinuxcn-keyring
+yaourt
+emacs
+visual-studio-code-bin
+make 
+cmake
+screenfetch
+clang
+gdb
+wps-office
+google-chrome
