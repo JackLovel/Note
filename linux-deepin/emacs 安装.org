@@ -1,4 +1,4 @@
-*** 首页到 emacs 下载 源码：     
+*** emacs 下载：     
 [[https://www.gnu.org/software/emacs/download.html#gnu-linux][下载地址]]
 
 #+BEGIN_SRC bash
