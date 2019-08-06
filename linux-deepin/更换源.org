@@ -1,5 +1,4 @@
 *** 添加阿里源
-
 #+BEGIN_SRC bash
 $ sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak  
 $ sudo vim /etc/apt/sources.list       
@@ -8,13 +7,11 @@ $ sudo deepin-editor /etc/apt/sources.list
 #+END_SRC
 
 *** 替换内容
-将 =http://packages.deepin.com/deepin= 替换成 =http://mirrors.aliyun.com/deepin= 即可
-```
-$ 
-$ deb [by-hash=force] http://mirrors.aliyun.com/deepin panda main contrib non-free
-```
-> update(require) or upgrade (optional)
-```
-$ sudo apt-get update                                      # update software list 
-$ sudo apt-get upgrade                                     # upgrade software 
-```
+将 =http://packages.deepin.com/deepin= 替换成 =http://mirrors.aliyun.com/deepin= 
+
+
+*** 测试
+#+BEGIN_SRC 
+$ sudo apt update // 更新软件列表
+$ sudo apt upgrade // 升级软件版本
+#+END_SRC
