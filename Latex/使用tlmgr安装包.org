@@ -10,7 +10,7 @@ $ sudo tlmgr gui
 #+BEGIN_SRC bash
 $ sudo visudo
 #+END_SRC
-=修改并添加下面的内容(以Texlive2019为例)
+=修改并添加下面的内容(以Texlive2019为例)=
 #+BEGIN_SRC bash
 $ Defaults  secure_path="/usr/local/texlive/2019/bin/x86_64-linux:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 #+END_SRC
