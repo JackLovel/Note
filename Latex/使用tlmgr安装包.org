@@ -1,0 +1,12 @@
+*** 启动 tlmgr 图形界面
+#+BEGIN_SRC bash
+$ sudo apt install -y perl-tk
+
+$ sudo tlmgr gui
+#+END_SRC
+
+*** 相关问题
+- 解决tlmgr在Ubuntu的sudo命令下“command not found”问题
+#+BEGIN_SRC bash
+$ sudo visudo
+#+END_SRC
