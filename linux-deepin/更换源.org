@@ -7,7 +7,8 @@ $ sudo vim /etc/apt/sources.list
 $ sudo deepin-editor /etc/apt/sources.list
 #+END_SRC
 
-*** add content to new sources file 
+*** 替换内容
+将 =http://packages.deepin.com/deepin= 替换成 =http://mirrors.aliyun.com/deepin= 即可
 ```
 $ 
 $ deb [by-hash=force] http://mirrors.aliyun.com/deepin panda main contrib non-free
