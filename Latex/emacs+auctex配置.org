@@ -7,6 +7,29 @@ $ ./configure --with-emacs
 $ make
 $ sudo make install
 #+END_SRC
-#+begin_quote
 
-#+end_quote
+** 配置 emacs 
+#+BEGIN_SRC lisp
+(load "auctex.el" nil t t)
+(load "preview-latex.el" nil t t)
+(setq Tex-auto-save t)
+(setq Tex-parse-self t)
+(setq-default Tex-master nil)
+#+END_SRC
+
+*** XeLaTeX 配置
+#+BEGIN_SRC lisp
+(add-hook 'LaTeX-mode-hook
+  (lambda()
+  (add-to-list 'TeX-command-list '("XeLaTeX" "%`xelatex%(mode)%' %t" TeX-run-TeX nil t))
+  (setq TeX-command-default "XeLaTeX")
+  (setq TeX-save-querynil )
+  (setq TeX-show-compilation t)
+))
+#+END_SRC
+
+*** 基本操作
+#+BEGIN_SRC lisp
+C-c C-c 编译
+C-c C-v 预览pdf
+#+END_SRC
