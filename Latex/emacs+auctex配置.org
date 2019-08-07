@@ -3,6 +3,9 @@
 #+BEGIN_SRC 
 $ tar zxf auctex-12.1.tar.gz
 $ cd auctex-12.1
+$ ./configure --with-emacs
+$ make
+$ sudo make install
 #+END_SRC
 #+begin_quote
 
