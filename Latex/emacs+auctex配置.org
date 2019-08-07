@@ -33,3 +33,6 @@ $ sudo make install
 C-c C-c 编译
 C-c C-v 预览pdf
 #+END_SRC
+
+*** 参考
+- [[http://blog.chinaunix.net/uid-26185912-id-3337670.html][Emacs AucTex安装]]
