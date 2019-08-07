@@ -35,4 +35,5 @@ C-c C-v 预览pdf
 #+END_SRC
 
 *** 参考
+- [[https://herechen.github.io/technology/Emacs-AUCTeX-installation-settings/][Emacs 和 AUCTeX 的安装与配置]]
 - [[http://blog.chinaunix.net/uid-26185912-id-3337670.html][Emacs AucTex安装]]
