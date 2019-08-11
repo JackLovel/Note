@@ -5,4 +5,7 @@ $ sudo apt install -y haskell-platform
 # quit console: C-d
 $ ghci 
 
+# compile and run 
+$ ghc -o hello hello_world.hs
+$ ./hello
 #+END_SRC
