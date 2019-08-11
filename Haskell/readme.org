@@ -1,1 +1,8 @@
+*** 环境安装
+#+BEGIN_SRC 
+$ sudo apt install -y haskell-platform
 
+# quit console: C-d
+$ ghci 
+
+#+END_SRC
