@@ -9,3 +9,7 @@ $ ./configure --prefix=/usr/local/
 $ sudo make -j4
 $ sudo make install 
 ```
+## npm 源
+```
+修改~/.npmrc文件(没有就自行新建一个)，写入registry = https://registry.npm.taobao.org
+```
