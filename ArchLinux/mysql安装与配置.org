@@ -3,6 +3,7 @@
 $ sudo pacman -S mysql
 
 // 关建的输出： root@localhost: XXXXXXX
+// 用户名：root, 密码：XXXXXXX
 $ sudo mysqld --initialize --user=mysql --basedir=/usr --datadir=/var/lib/mysql 
 
 $ sudo systemctl enable  mysqld.service
