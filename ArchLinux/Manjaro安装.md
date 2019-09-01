@@ -63,5 +63,11 @@ sudo pacman -S gdb # 默认没有
 sudo pacman -S wps-office
 pacman -S google-chrome
 ```
+如果怕烦的话，可以复制下面的一行：
+```
+sudo pacman -Sy yaourt archlinuxcn-keyring qtcreator \
+visual-studio-code-bin make screenfetch deepin.com.qq.office \
+clang gdb wps-office google-chrome
+```
 ### 参考文档
 - [原文](https://zhuanlan.zhihu.com/p/50918522)
