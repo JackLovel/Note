@@ -1,0 +1,11 @@
+** 安装
+#+BEGIN_SRC 
+$ sudo pacman -S mysql
+
+// 关建的输出： root@localhost: XXXXXXX
+$ sudo mysqld --initialize --user=mysql --basedir=/usr --datadir=/var/lib/mysql 
+
+$ sudo systemctl enable  mysqld.service
+$ sudo systemctl start  mysqld.service
+$ mysql -uroot -p
+#+END_SRC
