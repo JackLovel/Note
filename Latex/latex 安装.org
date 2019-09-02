@@ -5,7 +5,7 @@
 #+BEGIN_SRC bash
 // 解压 iso 文件，并切换进该目录
 $ chmod +x install-tl
-$ ./install-tl
+$ sudo ./install-tl
 #+END_SRC
 
 *** 配置坏境
