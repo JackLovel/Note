@@ -15,3 +15,11 @@ $ mysql -uroot -p
 #+BEGIN_SRC 
 $ emacs /etc/mysql/my.cnf
 #+END_SRC
+
+** 问题
+- initialize specified but the data directory has files in it. Aborting.
+#+BEGIN_SRC 
+$ cd /var/lib/
+$ mv mysql mysqlbak
+$ mkdir mysql
+#+END_SRC
