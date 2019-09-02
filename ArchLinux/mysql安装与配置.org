@@ -10,3 +10,8 @@ $ sudo systemctl enable  mysqld.service
 $ sudo systemctl start  mysqld.service
 $ mysql -uroot -p
 #+END_SRC
+
+** 配置
+#+BEGIN_SRC 
+$ emacs /etc/mysql/my.cnf
+#+END_SRC
