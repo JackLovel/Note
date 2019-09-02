@@ -9,7 +9,19 @@ $ sudo mysqld --initialize --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 $ sudo systemctl enable  mysqld.service
 $ sudo systemctl start  mysqld.service
 $ mysql -uroot -p
+
+// 修改 root 密码
+$ ALTER USER "root"@"localhost" IDENTIFIED  BY "123123";
 #+END_SRC
+
+** 基本使用
+#+BEGIN_SRC 
+
+> create datebase mydb;
+> use mydb;
+> CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20), species VARCHAR(20), sex CHAR(1), birth DATE, death DATE);
+#+END_SRC
+
 
 ** 配置
 #+BEGIN_SRC 
