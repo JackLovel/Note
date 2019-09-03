@@ -15,3 +15,4 @@ gdb
 wps-office
 google-chrome
 dotnet-sdk
+dbeaver // mysql database manage tools 
