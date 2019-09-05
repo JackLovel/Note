@@ -3,3 +3,4 @@
 
 *** prefer 
 - [[http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/][Using Git and Github to Manage Your Dotfiles]]
+- [[http://mingxinglai.com/cn/2012/09/use-git-to-manage-your-dotfiles/][使用Git管理自己的dotfiles]]
