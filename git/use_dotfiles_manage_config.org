@@ -1,5 +1,67 @@
 
+*** 本地搭建环境
+#+BEGIN_SRC 
+$ mkdir ~/dotfiles
 
+// 例如：vim zsh emacs
+$ mv ~/.vimrc ~/dotfiles/vimrc 
+$ mv ~/.zshrc ~/dotfiles/zshrc
+$ mv ~/.emacs.d ~/dotfiles/emacs.d
+
+$ git init
+$ git add .
+$ git commit -m "第一个 dotfiles 提交"
+
+
+// 然后，你必须在 github上创建 一个叫 dotfiles 的仓库
+$ git remote add origin https://github.com/xxxx/dotfiles.git 
+$ git push -u origin master -f  
+$ git push 
+#+END_SRC
+
+*** 创建初始化脚本
+创建一个叫 =makesymlinks.sh= 的脚本, 内容： 
+#+BEGIN_SRC 
+#!/bin/bash
+############################
+# .make.sh
+# This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
+############################
+
+########## Variables
+
+dir=~/dotfiles                    # dotfiles directory
+olddir=~/dotfiles_old             # old dotfiles backup directory
+files="bashrc vimrc vim zshrc oh-my-zsh"    # list of files/folders to symlink in homedir
+
+##########
+
+# create dotfiles_old in homedir
+echo "Creating $olddir for backup of any existing dotfiles in ~"
+mkdir -p $olddir
+echo "...done"
+
+# change to the dotfiles directory
+echo "Changing to the $dir directory"
+cd $dir
+echo "...done"
+
+# move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks 
+for file in $files; do
+    echo "Moving any existing dotfiles from ~ to $olddir"
+    mv ~/.$file ~/dotfiles_old/
+    echo "Creating symlink to $file in home directory."
+    ln -s $dir/$file ~/.$file
+done
+#+END_SRC
+
+*** 在新的机器中使用的步骤
+#+BEGIN_SRC 
+$ git clone your_dotfiles_url.git
+$ cd ~/dotfiles
+$ chmod +x makesymlinks.sh
+$ ./makesymlinks.sh
+#+END_SRC
 
 *** prefer 
 - [[http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/][Using Git and Github to Manage Your Dotfiles]]
