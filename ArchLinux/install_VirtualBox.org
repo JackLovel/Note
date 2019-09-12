@@ -1,1 +1,7 @@
-
+** 安装步骤
+#+BEGIN_SRC 
+$ sudo pacman -S virtualbox
+$ sudo pacman -S linux419-virtualbox-host-modules // 安装模块
+$ sudo gpasswd -a $USER vboxusers // 当前 用户添加到 vboxusers 组中
+$ sudo modprobe vboxdrv  
+#+END_SRC
