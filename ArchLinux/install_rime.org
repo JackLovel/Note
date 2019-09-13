@@ -31,7 +31,7 @@ patch:
      "menu/page_size": 9
 #+END_SRC
 
-
+然后 =重启 fcitx-im 控件= ，即可生效
 
 
 
