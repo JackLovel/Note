@@ -1,1 +1,37 @@
+*** 安装步骤
+
+- 安装RIME输入法
+#+BEGIN_SRC 
+$ sudo pacman -S fcitx-im fcitx-configtool fcitx-rime
+#+END_SRC
+
+- 在 ~/.xprofile 文件中写入
+#+BEGIN_SRC 
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
+#+END_SRC
+
+- 配置
+#+BEGIN_SRC 
+$ cd  ~/.config/fcitx/rime/
+$ touch default.custom.yaml && emacs default.custom.yaml
+#+END_SRC
+
+#+begin_quote
+配置内容（供参考）
+#+end_quote
+#+BEGIN_SRC 
+patch:
+  schema_list:
+    - schema: wubi_pinyin
+    - schema: wubi86
+
+patch:
+     "menu/page_size": 9
+#+END_SRC
+
+
+
+
 
