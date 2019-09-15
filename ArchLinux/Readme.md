@@ -4,6 +4,13 @@ $ sudo pacman -Syy // 刷新列表
 $ sudo pacman -Syyu // 刷新列表，并且升级软件
 $ sudo pacman -S package_name // 安装软件
 $ sudo pacman -R package_name // 删除安装包
+
+// 打包
+$ tar -zcvf index.tar.gz index.html css/ js/ images/　
+// 压缩
+$ tar -zxvf  index.tar.gz
+// 解压缩
+$ tar -zxvf  index.tar.gz /home/www
 ```
 
 ## 常见问题
