@@ -14,6 +14,9 @@ $ locale // 查看安装语言包
 $ sudo pacman -S  adobe-source-han-serif-cn-fonts // 安装中文包
 $ reboot // 重启系统
 ```
+> 防卡死
+- 不要开太多浏览器标签。
+
 > 无法升级， 出现锁定数据库的问题
 ```
 $ rm -rf /var/lib/pacman/db.lck
