@@ -3,6 +3,7 @@
 $ sudo pacman -Syy // 刷新列表
 $ sudo pacman -Syyu // 刷新列表，并且升级软件
 $ sudo pacman -S package_name // 安装软件
+$ sudo pacman -R package_name // 删除安装包
 ```
 
 ## 常见问题
