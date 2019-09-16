@@ -1,1 +1,8 @@
+** type blow command 
+#+BEGIN_SRC 
+$ gem cleanup
+$ gem uninstall railties 
+$ gem uninstall rails 
+$ rails -v // no command 
+#+END_SRC
 
