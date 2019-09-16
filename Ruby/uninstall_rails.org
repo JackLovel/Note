@@ -6,3 +6,5 @@ $ gem uninstall rails
 $ rails -v // no command 
 #+END_SRC
 
+** 参考
++ [[https://github.com/rubygems/rubygems/issues/542][How completely uninstall Rails gem ?]]
