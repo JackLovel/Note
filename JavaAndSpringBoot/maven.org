@@ -1,3 +1,26 @@
+*** 安装 maven
+- 下载
+[[https://www-us.apache.org/dist/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.tar.gz][下载地址]]
+
+- 安装
+#+BEGIN_SRC 
+$ tar vxf apache-maven-3.6.2-bin.tar.gz
+$ mv apache-maven-3.6.2 /usr/local/maven3
+#+END_SRC
+
+- 配置 环境 (~/.zshrc)
+#+BEGIN_SRC 
+MAVEN_HOME=/usr/local/maven3
+export MAVEN_HOME
+export PATH=${PATH}:${MAVEN_HOME}/bin
+#+END_SRC
+
+- 命令行生效
+#+BEGIN_SRC 
+$ source ~/.zshrc
+#+END_SRC
+
+
 *** 修改国内源
 在放maven的安装文件里，找到 =settings.xml=
 
