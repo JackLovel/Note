@@ -1,1 +1,18 @@
+*** 修改国内源
+在放maven的安装文件里，找到 =settings.xml=
 
+- 内容（找到 mirrors 标签对）
+#+BEGIN_SRC 
+<mirror>
+<id>alimaven</id>
+<name>aliyun maven</name>
+<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+<mirrorOf>central</mirrorOf>
+</mirror>
+<mirror>
+<id>alimaven</id>
+<mirrorOf>central</mirrorOf>
+<name>aliyun maven</name>
+<url>http://maven.aliyun.com/nexus/content/repositories/central/</url>
+</mirror>
+#+END_SRC
