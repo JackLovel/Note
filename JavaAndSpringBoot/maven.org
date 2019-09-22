@@ -1,6 +1,7 @@
 *** 安装 maven
 - 下载
-[[https://www-us.apache.org/dist/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.tar.gz][下载地址]]
+
+  [[https://www-us.apache.org/dist/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.tar.gz][下载地址]]
 
 - 安装
 #+BEGIN_SRC 
