@@ -16,3 +16,4 @@ wps-office
 google-chrome
 dotnet-sdk
 dbeaver // mysql database manage tools 
+simplescreenrecorder // screen recorder tools
