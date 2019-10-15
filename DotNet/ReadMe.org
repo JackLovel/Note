@@ -8,6 +8,7 @@
 - open [[https://www.nuget.org/][NuGet]] web page 
 - search you want package name 
 
+** error
 *** fix Unable to start Kestrel
 #+BEGIN_SRC 
 // put below the code for Program.cs
