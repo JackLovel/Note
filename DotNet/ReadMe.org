@@ -23,6 +23,9 @@ public static void Main(string[] args)
 *** 你打算运行全局工具，但在路径上找不到名称前缀为 dotnet 的可执行文件。
 
 #+BEGIN_SRC
+// 切换到项目的目录
+$ cd AuthTest 
+
 // 指定的 dotnet 版本为 2.2.402, 然后生成：global.json 文件
 $ dotnet new globaljson --sdk-version 2.2.402 --force
 
