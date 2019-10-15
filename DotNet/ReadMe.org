@@ -20,3 +20,9 @@ public static void Main(string[] args)
 }
 #+END_SRC 
 
+*** 你打算运行全局工具，但在路径上找不到名称前缀为 dotnet 的可执行文件。
+
+#+BEGIN_SRC
+// 指定的 dotnet 版本为 2.2.402
+dotnet new globaljson --sdk-version 2.2.402 --force
+#+END_SRC 
