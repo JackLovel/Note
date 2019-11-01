@@ -33,3 +33,11 @@ $ dotnet new globaljson --sdk-version 2.2.402 --force
 // 切换到里面的项目的目录
 $ cd AuthTest 
 #+END_SRC 
+
+*** fix sqlite migrate 
+```
+delete beblow directory:
+bin/
+Migrations/
+obj/
+```
