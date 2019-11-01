@@ -36,7 +36,7 @@ $ cd AuthTest
 
 *** fix sqlite migrate 
 ```
-delete beblow directory:
+delete below directory:
 bin/
 Migrations/
 obj/
