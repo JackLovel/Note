@@ -35,9 +35,10 @@ $ cd AuthTest
 #+END_SRC 
 
 *** fix sqlite migrate 
-```
+如你添加了字段并且使用 sqlite作为数据库，那么可以下面的方法解决迁移数据库出现的问题
+#+BEGIN_SRC
 delete below directory:
 bin/
 Migrations/
 obj/
-```
+#+END_SRC 
