@@ -1,10 +1,7 @@
 ** Step
 *** Install rvm 
 #+BEGIN_SRC bash
-$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 $ curl -sSL https://get.rvm.io | bash -s stable
-# 如果上面的连接失败，可以尝试: 
-$ curl -L https://raw.githubusercontent.com/wayneeseguin/rvm/master/binscripts/rvm-installer | bash -s stable
 $ source ~/.rvm/scripts/rvm 　// reload rvm 
 $ echo "ruby_url=https://cache.ruby-china.com/pub/ruby" > ~/.rvm/user/db // edit ruby source 
 $ rvm -v 
