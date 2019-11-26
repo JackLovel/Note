@@ -10,14 +10,14 @@ $ rvm -v
 *** Use rvm install ruby
 #+BEGIN_SRC bash
 $ rvm requirements
-$ rvm install 2.6.3
+$ rvm install 2.6.5
 $ echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >>~/.bashrc
 $ source ~/.bashrc
 #+END_SRC
 
 *** Set ruby version 
 #+BEGIN_SRC bash
-$ rvm use 2.6.3 --default 
+$ rvm use 2.6.5 --default 
 #+END_SRC
 
 *** Checkout 
