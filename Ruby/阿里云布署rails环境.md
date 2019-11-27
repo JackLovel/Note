@@ -45,8 +45,10 @@ $ gem install passenger
 ```
 $ passenger-install-nginx-module
 ```
-> 选项
+> 安装时的一些选项
 
+- 1. This installer will compile and install Nginx with Passenger support.
+- ruby
 - 位置：/usr/local/nginx
 
 > warning:
