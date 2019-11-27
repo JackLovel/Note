@@ -57,6 +57,40 @@ $ passenger-install-nginx-module
 ```
 $ vim /usr/local/nginx/conf/nginx.conf 
 ```
-然后添加如下：
+然后添加如下(没有的注释掉，不要删掉！)：
 ```
+worker_processes  1;
+
+#error_log  logs/error.log;
+#error_log  logs/error.log  notice;
+#error_log  logs/error.log  info;
+
+#pid        logs/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    # 下面两行是自动生成的
+    passenger_root /usr/local/rvm/gems/ruby-2.6.3/gems/passenger-6.0.4;
+    passenger_ruby /usr/local/rvm/gems/ruby-2.6.3/wrappers/ruby;
+
+    include       mime.types;
+    default_type  application/octet-stream;
+
+    sendfile        on;
+    keepalive_timeout  65;
+
+
+    server {
+        listen       80;
+        server_name  527up.xyz; # 填入你的域名
+        root /home/deploy/demo/public; # 填入项目的路径，例如：我的项目 demo 的路径是 /home/deploy/demo/
+        passenger_enabled on;
+        rails_env production; # 开启生产环境
+    }
+}
 ```
