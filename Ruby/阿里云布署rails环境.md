@@ -114,8 +114,12 @@ $ nginx -s stop
 ## FAQ
 > 项目权限问题
 ```
-$ chmod 755 <你的项目文件夹>
+$ chmod 755 -R <你的项目文件夹>
 ```
 > 公网ip无法访问（需要开放80端口）
 ```
+```
+> Make sure that `gem install sqlite3 -v '1.4.1' --source 
+```
+$ apt-get install sqlite3 libsqlite3-dev
 ```
