@@ -52,3 +52,11 @@ $ passenger-install-nginx-module
 - 位置：/usr/local/nginx
 
 > warning:
+
+> nginx.conf 配置
+```
+$ vim /usr/local/nginx/conf/nginx.conf 
+```
+然后添加如下：
+```
+```
