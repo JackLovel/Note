@@ -5,7 +5,7 @@ $ useradd deploy -m
 $ passwd deploy
 ```
 
-# 全部的安装环境在 root 下安装
+# 全部的安装环境在 非root 下安装
 ## ruby (rbenv方式)
 ### 安装 rbenv
 ```
