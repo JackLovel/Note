@@ -3,9 +3,9 @@
 ```
 $ useradd deploy -m
 $ passwd deploy
-$ gpasswd -a deploy root // 将deploy 用户添加到 root 组
 ```
 
+# 全部的安装环境在 root 下安装
 ## ruby (rbenv方式)
 ### 安装 rbenv
 ```
