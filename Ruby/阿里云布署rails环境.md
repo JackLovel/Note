@@ -110,3 +110,9 @@ $ nginx -s reload
 补充：关闭nginx 
 $ nginx -s stop
 ```
+
+## FAQ
+> 项目权限问题
+```
+$ chmod 755 <你的项目文件夹>
+```
