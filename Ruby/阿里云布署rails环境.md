@@ -103,3 +103,7 @@ $ /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
 ```
 $ nginx -t 
 ```
+> 加载
+```
+$ nginx -s reload
+```
