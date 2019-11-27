@@ -54,29 +54,21 @@ $ passenger-install-nginx-module
 
 - 1. This installer will compile and install Nginx with Passenger support.
 - ruby
-- 位置：/usr/local/nginx
+- 位置：/home/deploy/nginx
 
 > warning:
 
 > nginx.conf 配置
 ```
-$ vim /usr/local/nginx/conf/nginx.conf 
+$ vim /home/delploy/nginx/conf/nginx.conf 
 ```
 然后添加如下(没有的注释掉，不要删掉！)：
 ```
 worker_processes  1;
 
-#error_log  logs/error.log;
-#error_log  logs/error.log  notice;
-#error_log  logs/error.log  info;
-
-#pid        logs/nginx.pid;
-
-
 events {
     worker_connections  1024;
 }
-
 
 http {
     # 下面两行是自动生成的
