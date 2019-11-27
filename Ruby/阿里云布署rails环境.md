@@ -93,28 +93,30 @@ http {
 ```
 > 创建链接
 ```
-$ sudo ln -s /usr/local/nginx/sbin/nginx /usr/local/sbin/
-$ /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
+$ /home/delploy/nginx
+$ sbin/nginx -c conf/nginx.conf
 ```
 > 检验格式 
 ```
-$ nginx -t 
+$ /home/delploy/nginx/sbin/nginx -t 
 ```
 > 加载
 ```
-$ nginx -s reload
+$ /home/delploy/nginx/sbin/nginx -s reload
 
 补充：关闭nginx 
-$ nginx -s stop
+$ /home/delploy/nginx/sbin/nginx -s stop
 ```
 
 ## FAQ
-> 项目权限问题
+> 项目权限问题，这是你布署成功的主要原因，或者有其他原因
 ```
+$ ll <你的项目文件夹>
 $ chmod 755 -R <你的项目文件夹>
 ```
 > 公网ip无法访问（需要开放80端口）
 ```
+到阿里云管理界面添加即可
 ```
 > Make sure that `gem install sqlite3 -v '1.4.1' --source 
 ```
