@@ -106,4 +106,7 @@ $ nginx -t
 > 加载
 ```
 $ nginx -s reload
+
+补充：关闭nginx 
+$ nginx -s stop
 ```
