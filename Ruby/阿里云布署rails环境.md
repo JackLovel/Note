@@ -31,7 +31,12 @@ rbenv install --list  # 列出所有 ruby 版本
 rbenv install 2.6.5     # 安装 2.6.5
 ```
 
+### rail 
+```
+$ gem install rails -v 5.2.3
+```
 ### 设置版本
+设置 ruby 版本为 2.6.5
 ```
 rbenv global 2.6.5      # 默认使用 2.6.5
 ```
