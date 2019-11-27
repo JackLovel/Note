@@ -94,3 +94,12 @@ http {
     }
 }
 ```
+> 创建链接
+```
+$ sudo ln -s /usr/local/nginx/sbin/nginx /usr/local/sbin/
+$ /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
+```
+> 检验格式 
+```
+$ nginx -t 
+```
