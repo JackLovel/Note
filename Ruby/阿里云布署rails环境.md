@@ -108,6 +108,25 @@ $ /home/delploy/nginx/sbin/nginx -s reload
 $ /home/delploy/nginx/sbin/nginx -s stop
 ```
 
+### 配置 production 环境
+```
+$ bundle exec rake secret // 拿到生成的 key
+$ vim config/secrets.yml 
+```
+格式：
+```
+production:
+  secret_key_base: 这里放置生成的 key 的字符串
+```
+配置权限
+```
+$ chmod 755 config/database.yml config/secrets.yml
+```
+编译 Rails assets 和 生成生产环境的数据库
+```
+$ bundle exec rake assets:precompile db:migrate RAILS_ENV=production
+```
+
 ## FAQ
 > 项目权限问题，这是你布署成功的主要原因，或者有其他原因
 ```
@@ -121,4 +140,8 @@ $ chmod 755 -R <你的项目文件夹>
 > Make sure that `gem install sqlite3 -v '1.4.1' --source 
 ```
 $ apt-get install sqlite3 libsqlite3-dev
+```
+> 如何配置当前环境为生产环境
+```
+nginx.conf 添加 rails_env production; # 开启生产环境
 ```
