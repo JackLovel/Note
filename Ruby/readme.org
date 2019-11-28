@@ -1,7 +1,7 @@
 ** 比较推荐的版本
 #+BEGIN_SRC 
 Rails version: 5.2.3
-Ruby version: 2.6.3 (x86_64-linux)
+Ruby version: 2.6.5 (x86_64-linux)
 #+END_SRC
 
 ** nginx.conf 配置
