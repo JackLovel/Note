@@ -10,16 +10,6 @@ $ sudo pacman -Syyu  // 刷新软件列表，并升级软件
 $ sudo pacman -S vim
 ```
 
-### 添加arch源
-```
-$ sudo vim /etc/pacman.conf
-```
-添加内容
-```
-[archlinuxcn]
-SigLevel = Optional TrustedOnly
-Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
-```
 ###
 ```
 $ sudo pacman -Syy && sudo pacman -S archlinuxcn-keyring
@@ -33,21 +23,8 @@ $ chsh -s /bin/zsh
 ```
 
 ### 更换输入法
+[小狼毫输入法的安装方法](https://github.com/JackLovel/Note/blob/master/ArchLinux/install_rime.org#%E5%AE%89%E8%A3%85%E6%AD%A5%E9%AA%A4)
 
-```
-// 输入法比较全：有五笔　和　拼音
-sudo pacman -S fcitx-sogoupinyin
-sudo pacman -S fcitx-im # 全部安装
-sudo pacman -S fcitx-configtool # 图形化配置工具
-```
-
-### 设置中文输入法环境变量，编辑~/.xprofile文件，增加下面几行(如果文件不存在，则新建)
-配置好后，重启才能生效
-```
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS="@im=fcitx"
-```
 ### 安装一些常用软件
 除了命令行安装之外，还可以在 `Octopi`　图形界面进行软件的安装
 ```
