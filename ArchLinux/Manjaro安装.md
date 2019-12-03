@@ -5,7 +5,7 @@ window下推荐使用　rufus　来制作。
 ```
 ### 更换国内源
 ```
-$ sudo pacman-mirrors -i -c China -m rank  #选一个清华源就行
+$ sudo pacman-mirrors -i -c China -m rank  # 随便选中一个即可
 $ sudo pacman -Syyu  // 刷新软件列表，并升级软件
 $ sudo pacman -S vim
 ```
