@@ -27,8 +27,9 @@ eval "$(rbenv init -)"
 添加完成之后执行 source ~/.bashrc
 ### ruby
 ```
-rbenv install --list  # 列出所有 ruby 版本
-rbenv install 2.6.5     # 安装 2.6.5
+$ apt install -y nodejs # 安装依赖
+$ rbenv install --list  # 列出所有 ruby 版本
+$ rbenv install 2.6.5     # 安装 2.6.5
 ```
 
 ### rail 
