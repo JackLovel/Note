@@ -33,6 +33,7 @@ rbenv install 2.6.5     # 安装 2.6.5
 
 ### rail 
 ```
+$ gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/
 $ gem install rails -v 5.2.3
 ```
 ### 设置版本
