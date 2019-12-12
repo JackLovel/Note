@@ -1,1 +1,1 @@
-[应用打包](在Android Studio中打包生成APK)
+[应用打包](https://zhuanlan.zhihu.com/p/51583507)
