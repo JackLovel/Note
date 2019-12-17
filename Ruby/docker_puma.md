@@ -73,6 +73,7 @@ end
 ```
 # 镜像名： railapp, 版本：v1.0
 $ sudo docker build -t railapp:v1.0 .
+$ docker run -itP railapp
 ```
 
 ## 参考
