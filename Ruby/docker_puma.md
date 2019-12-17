@@ -69,5 +69,11 @@ on_worker_boot do
 end
 ```
 
+## 构建 build 
+```
+# 镜像名： railapp, 版本：v1.0
+$ sudo docker build -t railapp:v1.0 .
+```
+
 ## 参考
 - [生产环境使用 Docker 部署 Rails 应用 Puma 和 Sidekiq](https://ruby-china.org/topics/30098)
