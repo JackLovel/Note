@@ -6,7 +6,7 @@ $ sudo usermod -aG docker $(whoami)
 $ sudo systemctl restart docker.service
 ```
 ## 更换国内源加速
-打开, /etc/docker/daemon.json
+- 打开 `/etc/docker/daemon.json`
 ```
 {
   "registry-mirrors": [
@@ -15,6 +15,11 @@ $ sudo systemctl restart docker.service
     "https://registry.docker-cn.com"
   ]
 }
+```
+- 重启 docker 
+```
+$ sudo systemctl daemon-reload
+$ sudo systemctl restart docker
 ```
 ## 编写 dockerfile 
 ```
