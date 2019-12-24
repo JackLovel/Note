@@ -46,6 +46,6 @@ $ rails db:migrate
 
 > 参考
 
-[Devise - Adding custom fields to Devise User model and Customization 2018](https://www.bogotobogo.com/RubyOnRails/RubyOnRails_Devise_Adding_User_Field_and_Customization_Update_Saved.php)
-[https://launchschool.com/blog/how-to-use-devise-in-rails-for-authentication](https://launchschool.com/blog/how-to-use-devise-in-rails-for-authentication)
+- [Devise - Adding custom fields to Devise User model and Customization 2018](https://www.bogotobogo.com/RubyOnRails/RubyOnRails_Devise_Adding_User_Field_and_Customization_Update_Saved.php)
+- [https://launchschool.com/blog/how-to-use-devise-in-rails-for-authentication](https://launchschool.com/blog/how-to-use-devise-in-rails-for-authentication)
 
