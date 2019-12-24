@@ -44,3 +44,6 @@ $ rails db:migrate
   </div>
 ```
 
+## 参考
+[Devise - Adding custom fields to Devise User model and Customization 2018](https://www.bogotobogo.com/RubyOnRails/RubyOnRails_Devise_Adding_User_Field_and_Customization_Update_Saved.php)
+
