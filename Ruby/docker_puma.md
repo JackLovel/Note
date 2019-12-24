@@ -24,14 +24,16 @@ $ sudo systemctl restart docker
 ```
 ## 编写 dockerfile 
 ```
-## -*- docker-image-name: "rails_app" -*- 
+# archlinux os
 FROM ruby:2.6.5
 
+# 更换ubuntu 源
+
 # update package
-RUN pacman -Sy --noconfirm
+RUN apt-get update
 
 # install some depent package
-RUN pacman -S --noconfirm nodejs sqlite vim
+RUN apt-get install -y nodejs sqlite3 yarn
 
 # rails 程序放的目录 
 ENV APP_HOME /var/www/railsapp
@@ -40,11 +42,11 @@ ENV APP_HOME /var/www/railsapp
 RUN mkdir -p $APP_HOME
 
 # 设置容器里的工作目录
-WORKDIR $RAILS_ROOT
+WORKDIR $APP_HOME
 
 # 备份Gemfile 及 lock 到容器的工作目录中
-COPY GemFile $APP_HOME
-COPY GemFile.lock $APP_HOME
+COPY Gemfile Gemfile
+COPY Gemfile.lock Gemfile.lock
 
 # 安装 rails 环境
 RUN gem install bundler 
