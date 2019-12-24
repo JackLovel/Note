@@ -1,11 +1,21 @@
 ## 安装 docker 
 ```
-$ pacman -S docker 
+$ sudo apt install -y docker.io
 $ sudo groupadd docker
 $ sudo usermod -aG docker $(whoami)
 $ sudo systemctl restart docker.service
 ```
-
+## 更换国内源加速
+打开, /etc/docker/daemon.json
+```
+{
+  "registry-mirrors": [
+    "https://dockerhub.azk8s.cn",
+    "https://docker.mirrors.ustc.edu.cn",
+    "https://registry.docker-cn.com"
+  ]
+}
+```
 ## 编写 dockerfile 
 ```
 ## -*- docker-image-name: "rails_app" -*- 
