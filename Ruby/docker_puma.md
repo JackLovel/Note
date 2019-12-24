@@ -94,3 +94,4 @@ $ docker run -itP railapp
 
 ## 参考
 - [生产环境使用 Docker 部署 Rails 应用 Puma 和 Sidekiq](https://ruby-china.org/topics/30098)
+- [how-to-setup-rails-app-with-puma-and-nginx](http://ruby-journal.com/how-to-setup-rails-app-with-puma-and-nginx/)
