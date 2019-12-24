@@ -2,8 +2,9 @@
 ```
 $ sudo apt install -y docker.io
 $ sudo groupadd docker
-$ sudo usermod -aG docker $(whoami)
-$ sudo systemctl restart docker.service
+$ sudo gpasswd -a ${USER} docker
+$ sudo systemctl restart docker
+$ sudo systemctl enable docker
 ```
 ## 更换国内源加速
 - 打开 `/etc/docker/daemon.json`
