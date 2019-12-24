@@ -24,8 +24,6 @@ $ sudo systemctl restart docker
 ## 编写 dockerfile 
 ```
 ## -*- docker-image-name: "rails_app" -*- 
-
-# archlinux os
 FROM ruby:2.6.5
 
 # update package
