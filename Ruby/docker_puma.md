@@ -91,7 +91,15 @@ end
 $ sudo docker build -t railapp:v1.0 .
 $ docker run -itP railapp
 ```
-
+## docker 命令
+```
+$ docker ps -a 
+$ docker images  
+$ docker rmi 镜像ID -f
+$ docker run -it 容器ID
+$ docker stop 容器ID
+```
 ## 参考
 - [生产环境使用 Docker 部署 Rails 应用 Puma 和 Sidekiq](https://ruby-china.org/topics/30098)
 - [how-to-setup-rails-app-with-puma-and-nginx](http://ruby-journal.com/how-to-setup-rails-app-with-puma-and-nginx/)
+- [Docker容器的创建、启动、和停止](https://www.cnblogs.com/linjiqin/p/8608975.html)
