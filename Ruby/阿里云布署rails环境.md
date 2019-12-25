@@ -60,40 +60,11 @@ $ passenger-install-nginx-module
 
 > warning:
 
-> [nginx.conf 配置](product_config/nginx.conf)
+> [nginx.conf 配置参考](product_config/nginx.conf)
 ```
 $ cd /home/delploy/nginx/
 $ cp conf/nginx.conf conf/nginx.conf.bak 
 $ vim conf/nginx.conf
-```
-然后添加如下(没有的注释掉，不要删掉！)：
-```
-worker_processes  1;
-
-events {
-    worker_connections  1024;
-}
-
-http {
-    # 下面两行是自动生成的
-    passenger_root /usr/local/rvm/gems/ruby-2.6.3/gems/passenger-6.0.4;
-    passenger_ruby /usr/local/rvm/gems/ruby-2.6.3/wrappers/ruby;
-
-    include       mime.types;
-    default_type  application/octet-stream;
-
-    sendfile        on;
-    keepalive_timeout  65;
-
-
-    server {
-        listen       80;
-        server_name  527up.xyz; # 填入你的域名
-        root /home/deploy/demo/public; # 填入项目的路径，例如：我的项目 demo 的路径是 /home/deploy/demo/
-        passenger_enabled on;
-        rails_env production; # 开启生产环境
-    }
-}
 ```
 > 创建链接
 ```
