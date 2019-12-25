@@ -60,9 +60,11 @@ $ passenger-install-nginx-module
 
 > warning:
 
-> nginx.conf 配置
+> [nginx.conf 配置](product_config/nginx.conf)
 ```
-$ vim /home/delploy/nginx/conf/nginx.conf 
+$ cd /home/delploy/nginx/
+$ cp conf/nginx.conf conf/nginx.conf.bak 
+$ vim conf/nginx.conf
 ```
 然后添加如下(没有的注释掉，不要删掉！)：
 ```
