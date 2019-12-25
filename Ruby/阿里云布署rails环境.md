@@ -120,3 +120,7 @@ $ apt-get install sqlite3 libsqlite3-dev
 ```
 nginx.conf 添加 rails_env production; # 开启生产环境
 ```
+> open() "/home/xxxx/nginx/logs/nginx.pid" failed (2: No such file or directory)
+```
+$ sbin/nginx -c conf/nginx.conf
+```
