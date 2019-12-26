@@ -103,6 +103,8 @@ $ bundle exec rake assets:precompile db:migrate RAILS_ENV=production
 ```
 ## Postsql
 ```
+$ apt install postgresql -y
+
 ```
 ## FAQ
 > 项目权限问题，这是你布署成功的主要原因，或者有其他原因
