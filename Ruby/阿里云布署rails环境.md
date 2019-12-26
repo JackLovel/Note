@@ -125,3 +125,16 @@ nginx.conf 添加 rails_env production; # 开启生产环境
 ```
 $ /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
 ```
+> 如何添加 数据到数据库中, 比如添加 `管理员`
+`seed.rb` 的数据：
+```
+User.create!(name: "Example User",
+             email: "example@railstutorial.org",
+             password: "footbar",
+             password_confirmation: "footbar",
+             admin: true)
+```
+然后运行
+```
+$ rails db:seed RAILS_ENV='production'
+```
