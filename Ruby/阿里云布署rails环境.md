@@ -101,7 +101,9 @@ $ chmod 755 config/database.yml config/secrets.yml
 ```
 $ bundle exec rake assets:precompile db:migrate RAILS_ENV=production
 ```
-
+## Postsql
+```
+```
 ## FAQ
 > 项目权限问题，这是你布署成功的主要原因，或者有其他原因
 ```
