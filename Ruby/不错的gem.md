@@ -49,3 +49,31 @@ $ rails db:migrate
 - [Devise - Adding custom fields to Devise User model and Customization 2018](https://www.bogotobogo.com/RubyOnRails/RubyOnRails_Devise_Adding_User_Field_and_Customization_Update_Saved.php)
 - [https://launchschool.com/blog/how-to-use-devise-in-rails-for-authentication](https://launchschool.com/blog/how-to-use-devise-in-rails-for-authentication)
 
+
+## [ckeditor](https://rubygems.org/gems/ckeditor/)
+- 添加到 Gemfile 
+```
+gem 'ckeditor', '~> 5.0'
+```
+- 配置
+```
+$ bundle install 
+$ rails g ckeditor:install 
+```
+然后在 `config/initializers/ckeditor.rb` 中添加
+```
+Ckeditor.setup do |config|
+  # //cdn.ckeditor.com/<version.number>/<distribution>/ckeditor.js
+  config.cdn_url = "//cdn.ckeditor.com/4.6.1/basic/ckeditor.js"
+end
+```
+在 `application.html.erb` 添加 
+```
+<% = javascript_include_tag Ckeditor.cdn_url %>
+```
+在表单中添加 
+```
+<%= f.cktext_area :字段 %>
+```
+
+
