@@ -130,8 +130,8 @@ $ /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
 ```
 User.create!(name: "Example User",
              email: "example@railstutorial.org",
-             password: "footbar",
-             password_confirmation: "footbar",
+             password: "123546",
+             password_confirmation: "123546",
              admin: true)
 ```
 然后运行
