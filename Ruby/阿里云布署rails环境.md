@@ -101,7 +101,7 @@ $ chmod 755 config/database.yml config/secrets.yml
 ```
 $ bundle exec rake assets:precompile db:migrate RAILS_ENV=production
 ```
-## Postsql
+## [postgresql](DotNet/06.postgresql安装与使用.md)
 ```
 $ apt install postgresql -y
 
