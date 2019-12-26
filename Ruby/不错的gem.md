@@ -71,9 +71,12 @@ end
 ```
 <% = javascript_include_tag Ckeditor.cdn_url %>
 ```
-在表单中添加 
+在表单中添加，比如我的是 `:content`字段
 ```
-<%= f.cktext_area :字段 %>
+<%= f.cktext_area :content %>
 ```
-
+在 `show.html.erb` 需要转成 html 
+```
+@article.content.html_safe
+```
 
