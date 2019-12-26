@@ -71,7 +71,7 @@ end
 ```
 <% = javascript_include_tag Ckeditor.cdn_url %>
 ```
-在表单中添加，比如我的是 `:content`字段
+在表单中添加，比如我的是 `Article` 模型的 `content`字段
 ```
 <%= f.cktext_area :content %>
 ```
