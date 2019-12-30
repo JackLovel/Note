@@ -1,7 +1,7 @@
-*** 网站中文支持(I18n)
+** 网站中文支持(I18n)
 由于 rails 默认 I18n是 =en=, 所以要编写一下来支持中文的翻译
 
-- 修改默认区域为 zh_cn
+*** 修改默认区域为 zh_cn
 打开项目下的 =config/initializers/locale.rb= 文件
 #+BEGIN_SRC 
 # 翻译文件路径
@@ -14,7 +14,7 @@ I18n.available_locales = [:en, :zh_cn]
 I18n.default_locale = :zh_cn
 #+END_SRC
 
-- 创建对应用 =zh_cn.yml= 文件
+*** 创建对应用 =zh_cn.yml= 文件
 在 =config/locales/= 创建 =zh_cn.yml= 文件
 #+BEGIN_SRC 
 # 添加英文对应的中文 
