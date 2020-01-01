@@ -6,7 +6,7 @@ $ rails webpacker:install
 $ yarn install --check-files 
 $ rails s
 ```
-## lease run rails webpacker:install Error: No such file or directory @ rb_sysopen -
+- lease run rails webpacker:install Error: No such file or directory @ rb_sysopen
 ```
 $ rails webpacker:install
 ```
