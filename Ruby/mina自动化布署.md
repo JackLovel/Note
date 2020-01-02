@@ -1,0 +1,4 @@
+## mina 
+```
+$ gem install mina
+```
