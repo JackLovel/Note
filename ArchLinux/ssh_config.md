@@ -2,7 +2,7 @@
 ```
 window 中有 xshell, 那么linux 有 ssh server
 ```
-## 配置 (也可)
+## 配置
 ```
 $ pacman -S git 
 ```
