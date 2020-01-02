@@ -15,7 +15,7 @@ $ systemctl start sshd.service      // 启动 ssh 服务
 ## 使用方法
 ```
 // 以 root 用户和主机 192.168.1.100(公网ip) 为例
-$ ssh root@192.168.1.100 -p 22
+$ ssh root@192.168.1.100
 ```
 
 ## faq 
