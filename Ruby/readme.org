@@ -5,3 +5,12 @@ Ruby version: 2.6.5 (x86_64-linux)
 #+END_SRC
 
 ** nginx.conf 配置
+
+** gem 
+
+#+BEGIN_SRC 
+$ gem install package_name -v version 
+
+// 卸载所有安装的gem包
+$ for i in `gem list --no-versions`; do gem uninstall -aIx $i; done
+#+END_SRC
