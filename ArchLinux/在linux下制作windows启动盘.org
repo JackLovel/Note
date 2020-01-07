@@ -1,4 +1,0 @@
-[[xxx][WoeUSB]]
-
-*** 安装
-sudo pacman -S woeusb-git 
