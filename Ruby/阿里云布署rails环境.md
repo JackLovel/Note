@@ -60,7 +60,7 @@ $ bundle exec rake assets:precompile db:migrate RAILS_ENV=production
 ```
 $ gem install passenger
 ```
-### nginx
+### [nginx](https://github.com/JackLovel/Note/blob/master/Ruby/product_config/nginx.conf)
 ```
 $ passenger-install-nginx-module
 ```
