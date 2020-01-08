@@ -50,6 +50,9 @@ $ bundle install --without development // 安装生产环境中的 gem
 $ sudo apt install -y postgresql
 $ sudo -i -u postgres 
 $ psql 
+
+// 编译以及迁移数据库
+$ bundle exec rake assets:precompile db:migrate RAILS_ENV=production
 ```
 
 ## Passenger + nginx
