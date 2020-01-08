@@ -37,7 +37,12 @@ $ rbenv global 2.6.5      # 设置版本为 2.6.5
 ### rail 
 ```
 $ gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/
-$ gem install rails -v 5.2.3
+//$ gem install rails -v 5.2.3
+$ bundle install 
+```
+## [postgresql](https://github.com/JackLovel/Note/blob/master/DotNet/06.postgresql%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.md#%E5%AE%89%E8%A3%85)
+```
+$ sudo apt install -y postgresql
 ```
 
 ## Passenger + nginx
@@ -97,11 +102,6 @@ $ chmod 755 config/database.yml config/secrets.yml
 编译 Rails assets 和 生成生产环境的数据库
 ```
 $ bundle exec rake assets:precompile db:migrate RAILS_ENV=production
-```
-## [postgresql](https://github.com/JackLovel/Note/blob/master/DotNet/06.postgresql%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.md#%E5%AE%89%E8%A3%85)
-```
-$ apt install postgresql -y
-
 ```
 ## FAQ
 > 项目权限问题，这是你布署成功的主要原因，或者有其他原因
