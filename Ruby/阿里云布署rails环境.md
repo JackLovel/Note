@@ -4,7 +4,7 @@ $ sudo apt update
 $ sudo apt install -y nodejs libssl-dev libreadline-dev zlib1g-dev libpq-dev
 ```
 
-## 添加新的用户
+## 添加 sudo 用户 
 比如：deploy, 添加新用户的目的：主要是用来存放项目文件，管理员目录下不推荐存放项目。
 ```
 //$ useradd deploy -m
