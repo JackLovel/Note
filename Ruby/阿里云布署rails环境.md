@@ -1,8 +1,10 @@
 ## 添加新的用户
 比如：deploy, 添加新用户的目的：主要是用来存放项目文件，管理员目录下不推荐存放项目。
 ```
-$ useradd deploy -m
-$ passwd deploy
+//$ useradd deploy -m
+//$ passwd deploy
+root$ adduser deploy 
+root$ adduser deploy sudo 
 ```
 
 # 全部的安装环境在 非root 下安装
