@@ -11,7 +11,12 @@ $ tar -zcvf index.tar.gz index.html css/ js/ images/　
 $ tar -zxvf  index.tar.gz
 // 解压缩
 $ tar -zxvf  index.tar.gz /home/www
+
+
+// 查看ip 
+$ ip addr 
 ```
+
 
 ## 常见问题
 
