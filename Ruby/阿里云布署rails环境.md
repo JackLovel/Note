@@ -45,7 +45,7 @@ $ gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/
 //$ gem install rails -v 5.2.3
 $ bundle install --without development // 安装生产环境中的 gem
 ```
-## [postgresql](https://github.com/JackLovel/Note/blob/master/DotNet/06.postgresql%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.md#%E5%AE%89%E8%A3%85) [learn postsql](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04)
+## [postgresql](https://github.com/JackLovel/Note/blob/master/DotNet/06.postgresql%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.md#%E5%AE%89%E8%A3%85) /[learn postsql](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04)
 ```
 $ sudo apt install -y postgresql
 $ sudo -i -u postgres 
