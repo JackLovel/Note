@@ -31,6 +31,7 @@ eval "$(rbenv init -)"
 ### ruby
 ```
 $ apt install -y nodejs # 安装依赖
+$ apt-get install -y libssl-dev libreadline-dev zlib1g-dev sqlite3
 $ rbenv install --list  # 列出所有 ruby 版本
 $ rbenv install 2.6.5     # 安装 2.6.5
 ```
