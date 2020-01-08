@@ -1,3 +1,9 @@
+## 安装必要的依赖
+```
+$ sudo apt update 
+$ sudo apt-get install -y nodejs libssl-dev libreadline-dev zlib1g-dev libpq-dev
+```
+
 ## 添加新的用户
 比如：deploy, 添加新用户的目的：主要是用来存放项目文件，管理员目录下不推荐存放项目。
 ```
@@ -28,7 +34,6 @@ git clone git://github.com/AndorChen/rbenv-china-mirror.git ~/.rbenv/plugins/rbe
 
 ### ruby
 ```
-$ sudo apt-get install -y nodejs libssl-dev libreadline-dev zlib1g-dev sqlite3
 $ rbenv install -l  # 列出所有 ruby 版本
 $ rbenv install 2.6.5     # 安装 2.6.5
 $ rbenv global 2.6.5      # 设置版本为 2.6.5
@@ -38,7 +43,7 @@ $ rbenv global 2.6.5      # 设置版本为 2.6.5
 ```
 $ gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/
 //$ gem install rails -v 5.2.3
-$ bundle install 
+$ bundle install --without development // 安装生产环境中的 gem
 ```
 ## [postgresql](https://github.com/JackLovel/Note/blob/master/DotNet/06.postgresql%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.md#%E5%AE%89%E8%A3%85)
 ```
