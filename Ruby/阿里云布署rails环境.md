@@ -13,26 +13,23 @@ root$ adduser deploy --ingroup sudo
 ### 安装 rbenv
 ```
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
-# 用来编译安装 ruby
-git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
-# 用来管理 gemset, 可选, 因为有 bundler 也没什么必要
-git clone git://github.com/jamis/rbenv-gemset.git  ~/.rbenv/plugins/rbenv-gemset
-# 通过 rbenv update 命令来更新 rbenv 以及所有插件, 推荐
-git clone git://github.com/rkh/rbenv-update.git ~/.rbenv/plugins/rbenv-update
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+// ruby-build
+mkdir -p "$(rbenv root)"/plugins
+git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+source ~/.bashrc
+
 # 使用 Ruby China 的镜像安装 Ruby, 国内用户推荐
 git clone git://github.com/AndorChen/rbenv-china-mirror.git ~/.rbenv/plugins/rbenv-china-mirror
 ```
-然后把下面代码放到 ~/.bashrc
-```
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-```
-添加完成之后执行 source ~/.bashrc
+
 ### ruby
 ```
-$ apt install -y nodejs # 安装依赖
-$ apt-get install -y libssl-dev libreadline-dev zlib1g-dev sqlite3
-$ rbenv install --list  # 列出所有 ruby 版本
+$ sudo apt-get install -y nodejs libssl-dev libreadline-dev zlib1g-dev sqlite3
+$ rbenv install -l  # 列出所有 ruby 版本
 $ rbenv install 2.6.5     # 安装 2.6.5
 ```
 
