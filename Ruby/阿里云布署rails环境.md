@@ -1,7 +1,7 @@
 ## 安装必要的依赖
 ```
 $ sudo apt update 
-$ sudo apt install -y nodejs libssl-dev libreadline-dev zlib1g-dev libpq-dev
+$ sudo apt install -y nodejs libssl-dev libreadline-dev zlib1g-dev libpq-dev libcurl4-openssl-dev
 ```
 
 ## 添加 sudo 用户 
