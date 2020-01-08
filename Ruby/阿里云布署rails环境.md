@@ -3,8 +3,9 @@
 ```
 //$ useradd deploy -m
 //$ passwd deploy
-root$ adduser deploy 
-root$ adduser deploy sudo 
+//root$ adduser deploy 
+//root$ adduser deploy sudo 
+root$ adduser deploy --ingroup sudo
 ```
 
 # 全部的安装环境在 非root 下安装
