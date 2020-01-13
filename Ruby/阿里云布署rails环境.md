@@ -149,3 +149,6 @@ User.create!(name: "Example User",
 ```
 $ rails db:seed RAILS_ENV='production'
 ```
+
+## 参考
+- [如何在 Ubuntu 云服务器上部署自己的 Rails 应用 ](https://ruby-china.org/topics/32851)
