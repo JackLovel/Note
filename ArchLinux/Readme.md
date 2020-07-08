@@ -4,6 +4,7 @@ $ sudo pacman -Syy // 刷新列表
 $ sudo pacman -Syyu // 刷新列表，并且升级软件
 $ sudo pacman -S package_name // 安装软件
 $ sudo pacman -R package_name // 删除安装包
+$ sudo pacman -Ss openjdk8 // 查找对应的 openjdk8 的包
 
 // 打包
 $ tar -zcvf index.tar.gz index.html css/ js/ images/　
@@ -33,4 +34,19 @@ $ reboot // 重启系统
 > 无法升级， 出现锁定数据库的问题
 ```
 $ rm -rf /var/lib/pacman/db.lck
+```
+
+## 添加国内源
+```
+sudo vim /etc/pacman.conf
+```
+- 添加内容
+```
+[archlinuxcn]
+SigLevel = Optional TrustedOnly
+Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+```
+- 更新 
+```
+sudo pacman -Syy && sudo pacman -S archlinuxcn-keyring
 ```
