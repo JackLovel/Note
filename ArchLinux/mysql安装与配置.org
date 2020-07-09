@@ -12,6 +12,7 @@ $ mysql -uroot -p
 
 // 修改 root 密码
 $ ALTER USER "root"@"localhost" IDENTIFIED  BY "123123";
+$ FLUSH PRIVILEGES
 #+END_SRC
 
 ** 基本使用
