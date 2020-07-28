@@ -10,7 +10,8 @@ $ sudo zypper remove <包名>
 ## 问题
 
 - 错误：依赖检测失败：XX 被 YY 需要
-```
-# 解决方法，通常在安装包出现的，需要在命令后面添加 ``
 
+需要在命令后面添加 ` --nodeps --force`，比如：
+```
+$ sudo rpm -ivh baidunetdisk-3.3.2.x86_64.rpm  --nodeps --force
 ```
