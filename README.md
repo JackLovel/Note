@@ -1,6 +1,3 @@
-## Note
-store some notes 
-
 ## 萧大推荐的书
 > 全部读完
 - [x] [代码大全]()
