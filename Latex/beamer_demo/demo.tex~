@@ -1,6 +1,7 @@
 \documentclass[xcolor=table]{beamer}
 \usepackage[UTF8,noindent]{ctexcap}
 
+
 % 导言区
 \title{杂谈勾股定理}
 \subtitle{数学史讲座之一}
@@ -14,9 +15,6 @@
 
 \newtheorem{thm}{定理}
 
-%\setCJKsansfont[ItalicFont={华文新魏}]{黑体}
-\renewcommand\CJKfamilydefault{\CJKsfdefault}
-
 % 使用主题
 \usetheme{AnnArbor} 
 
@@ -28,7 +26,7 @@
 \end{frame}
 
 \begin{frame}{目录}
-  \tableofcontents[pausesections]
+  \tableofcontents
 \end{frame}
 
 \section{勾股定理在古代}
@@ -83,43 +81,4 @@
 		\caption{赵爽的弦图可给出勾股定理的一个}
 	\end{figure}
 \end{frame}
-% 图表
-\begin{frame}
-	有论者认为早在公元前11世纪商高即已证明勾股定理\cite{quanjing}
-	\begin{figure}
-		\centering
-		\includegraphics[height=0.4\textheight]{1.png}
-		\caption{赵爽的弦图可给出勾股定理的一个}
-	\end{figure}
-\end{frame}
-
-% 图表
-\begin{frame}
-	有论者认为早在公元前11世纪商高即已证明勾股定理\cite{quanjing}
-	\begin{figure}
-		\centering
-		\includegraphics[height=0.4\textheight]{1.png}
-		\caption{赵爽的弦图可给出勾股定理的一个}
-	\end{figure}
-\end{frame}
-
-\begin{frame}
-	有论者认为早在公元前11世纪商高即已证明勾股定理\cite{quanjing}
-	\begin{figure}
-		\centering
-		\includegraphics[height=0.4\textheight]{1.png}
-		\caption{赵爽的弦图可给出勾股定理的一个}
-	\end{figure}
-\end{frame}
-
-\begin{frame}
-  \onslide<1>{只有第1步}
-  \onslide<2->{只有第2步}
-  \onslide<1,3>{只有第1,3步}
-\end{frame}
 \end{document}
-
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: t
-%%% End:
