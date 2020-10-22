@@ -12,12 +12,15 @@ $ sudo apt-get install libgl1-mesa-dev
 ## 创建自己的库
 - 创建 
 ```
-1. 文件->Library->C++ Library->Define Project Details(Shared Library)
+1. 文件->Library->C++ Library->Define Project Details(静态库)
 2. 右击项目 构建, 生成了一堆 so 和 o 为后缀的文件 
 ```
 - 使用 
 ```
-1. 在新的项目里 创建一个 3rdparty 的文件夹，把所有的生成好的 so 和 o 文件放到里面
+1. 在新的项目里 创建一个 3rdparty 的文件夹，把所有的生成好的 a 和 o 文件放到里面
 2. 新项目添加原来的 库的所有头文件 
-3. 右击项目 添加库... -> 外部库->添加库(添加 so 文件)
+3. 右击项目 添加库... -> 外部库->添加库(添加 a 文件)
 ```
+- 参考
+
+[Qt中生成和使用静态库](https://www.cnblogs.com/liushui-sky/articles/9485931.html)
