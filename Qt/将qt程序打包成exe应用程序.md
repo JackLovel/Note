@@ -1,6 +1,9 @@
 ### qt 打包 
 这一步将所有的依赖打包到文件夹里, 
-需要打 Qt for desktop 命令行， 然后将 qt creator 生成的 exe 放到单独的文件里，并切到这个目录 
+
+需要打 Qt for desktop 命令行， 
+
+然后将 qt creator 生成的 exe 放到单独的文件里，并切到这个目录 
 ```
 $ windeployqt xxx.exe 
 ```
